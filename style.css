@@ -242,6 +242,7 @@ h3{
  @media (max-width: 500px) {
   header {
     padding: 1em;
+    padding-bottom: 4em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -258,7 +259,7 @@ h3{
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    margin: 2em 3em;
+    margin: 2em;
     width: 100%;
  }
  }
