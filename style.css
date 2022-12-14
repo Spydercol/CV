@@ -238,4 +238,27 @@ h3{
       justify-content: space-between;
     }
  }
- 
+
+ @media (max-width: 500px) {
+  header {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fddfc5;
+  }
+  .foto {
+    width: 17em;
+    margin: 3em;
+    border-radius: 50%;
+    box-shadow: 0 0 7px #666;
+   }
+   .competences{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2em 3em;
+    width: 100%;
+ }
+ }
